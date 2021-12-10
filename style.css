@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Raleaway';
+  }
+.text{
+    margin-top:100px;
+    margin-left:500px;
+    text-align:center;
+}
+
+body{
+    height: 100%;
+    background-color: #0a0a0a;
+}
+img{
+    position:absolute;
+    opacity:0;
+}
+
+header{
+    text-align: center;
+    background-color: #fff;
+    color:#000;
+    padding: 20px 0px 20px 0px;
+}
+
+main{
+    padding-top:1em;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plaatje{
+    fill:red;
+    position:absolute;
+    opacity:1;
+}
+
+h1{
+    font-size:40px;
+}
+
+p{
+    margin-top:1em;
+    padding:10px 20px 30px 0px;
+}
+
+.button{
+    background-color:transparent;
+    border: 2px solid #fff;
+    text-decoration: none;
+    padding:5px 10px;
+    margin-right:30px;
+}
+.button:hover{
+    cursor:grab;
+}
+.button:nth-of-type(1){
+    border: 2px solid #ffbb21;
+    color:#ffbb21;
+}
+
+.button:nth-of-type(2){
+    border: 2px solid #56b0fd;
+    color:#56b0fd;
+}
+
+.button:nth-of-type(3){
+    border: 2px solid #e61c1c;
+    color:#e61c1c;
+}
+.verdwijn{
+    opacity:1;
+    z-index:1
+
+}
+
+table{
+    margin: 0 auto;
+    border-collapse:seperate;
+}
+td{
+    padding: 5px 0;
+    color:black;
+    background-color: white;
+}

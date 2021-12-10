@@ -1,22 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datweek assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <title>De lichtroute</title>
 </head>
+
 <body>
-    <h1>welkom</h1>
-    <nav>
-        <ul>
-            <li>Kaart</li>
-            <li>Datasets</li>
-            <li></li>
-        </ul>
-    </nav>
+    <header>
+        <h2>De Lichtroute</h2>
+    </header>
+
     <main>
-        de kaart
+        <img src="images/map white.png" class="plaatje" alt="map" width="600" height="889">
+        <img src="images/map_rode_route.svg" class="rood">
+        <img src="images/map_oranje_route.svg" class="oranje">
+        <img src="images/map_blauwe_route.svg" class="blauw">
+
+        <section class='text'>
+            <h1>De Lichtroute</h1>
+            <p>Wanneer op 5 december Sinterklaas weer uit ons land vertrekt hangen de meeste mensen hun kerstverlichting
+                weer op. Dit is iets wat ons tijdens onze reis van en naar school ook opviel. Tijdens onze reis hebben
+                wij alle kerstverlichting geturfd om in kaart te brengen in hoeverre onze routes verlicht zijn.
+                Hierbij zetten we onze data af tegen een open dataset die kijkt naar het energieverbruik van de vier
+                plaatsen die op de kaart staan. Klik op een van de buttons om te zien hoe ieder van onze routes verlicht
+                zijn. </p>
+            <button class="button">Route Marijn</button>
+            <button class="button">Route Tom</button>
+            <button class="button">Route Kathleen</button>
+
+            <p>Op Tom zijn route komt hij langs een aantal steden. Per stad wordt de volgende hoeveelheid energie
+                verbruikt per huishouden:</p>
+            <table>
+                <tr>
+                    <th>Stad</th>
+                    <th>Energieverbruik in kWh</th>
+                    <th>Getelde kerstverlichting</th>
+                </tr>
+                <tr>
+                    <td>Kolhorn</td>
+                    <td>3020</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Alkmaar</td>
+                    <td>2490</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Amsterdam</td>
+                    <td>2050</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Haarlem</td>
+                    <td>2420</td>
+                    <td>33</td>
+                </tr>
+                <tr>
+                    <td>Waarderpolder</td>
+                    <td>3510</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Spaarndam</td>
+                    <td>2870</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>Utrecht Centraal</td>
+                    <td>2360</td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
     </main>
+
+
 </body>
+<script type="text/javascript" src="index.js"></script>
+
 </html>
